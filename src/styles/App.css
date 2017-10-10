@@ -1,0 +1,60 @@
+/*
+tan: #83838C
+pink: #F3E9E7
+brown: #4C4743
+green: #344F48
+  */
+
+body {
+  line-height: 1.6;
+  font-family: 'Muli', sans-serif;
+  background-color: #344F48;
+  color: #F3E9E7;
+}
+
+a  {
+  text-decoration: none;
+}
+
+.home {
+  text-align: center;
+}
+
+
+.intro {
+  color: #F3E9E7;
+  text-transform: uppercase;
+  border: 6px solid #83838C;
+  padding: 20px 20px;
+  margin-top: 60px;
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-bottom: 100px;
+}
+
+.intro h1{
+  font-size: 3em;
+  line-height: 1em;
+}
+
+nav {
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #F3E9E7;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+footer {
+  background-color: #F3E9E7;
+  color: #4C4743;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 40px;
+}
