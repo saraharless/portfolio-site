@@ -53,27 +53,27 @@ nav a {
   border: 2px solid #D4FF00;
 }
 
+.btn a {
+  color: #D4FF00;
+  text-decoration: none;
+}
+
 .btn2 {
   text-align: center;
   font-size: 14px;
   padding: 16px 16px;
   outline: none;
   border-radius: 2px;
-  margin-right: 35%;
-  margin-left: 35%;
   margin-bottom: 20px;
+  margin-left: 5%;
   background-color: #8C8D81;
-  color: #D4FF00;
   border: 2px solid #D4FF00;
-}
-
-.btn a {
-  color: #D4FF00;
-  text-decoration: none;
+  width: 160px;
 }
 
 .btn2 a {
-  color: #D4FF00;
+  font-size: 1em;
+  color: white;
   text-decoration: none;
 }
 
@@ -143,6 +143,7 @@ nav {
   padding-right: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
+  text-align: center;
 }
 
 .port img {
@@ -160,6 +161,7 @@ nav {
 
 .resume {
   background-color: #8C8D81;
+  text-align: center;
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
@@ -168,6 +170,7 @@ nav {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 8%;
+  width: 80%;
 }
 
 .resume img {
@@ -200,7 +203,7 @@ h4 {
   padding-bottom: 10px;
   margin: 10px;
   border: 4px solid #D4FF00;
-  width: 160px;
+  width: 140px;
   flex-direction: row;
 }
 
@@ -211,3 +214,53 @@ footer {
   padding-bottom: 100px;
   padding-left: 40px;
 }
+
+
+@media screen and (min-width: 450px) {
+  nav a {
+    font-size: 1.6em;
+    }
+
+    .home img {
+      width: 400px;
+    }
+    .port img {
+      width: 70%;
+    }
+    .resume {
+      width: 425px;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+
+    nav a {
+      font-size: 2em;
+      margin-left: 20px;
+      margin-right: 20px;
+      }
+
+      .resume {
+        width: 80%;
+      }
+
+      .resume img {
+        width: 80%;
+        max-width: 600px;
+      }
+
+      .home img {
+        width: 500px;
+      }
+      .port img {
+        width: 70%;
+      }
+
+      .intro h1 {
+        font-size: 3em;
+      }
+
+      .intro p {
+        font-size: 18px;
+      }
+    }
