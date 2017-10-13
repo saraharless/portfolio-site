@@ -20,8 +20,8 @@ export default class About extends Component {
 
         <p>I love illustration, eating tacos, improving the way a company communicates with their end-user, and listening to ghost stories. </p>
 
+        <h4>Skillset:</h4>
         <div className="skills">
-          <h4>Skillset:</h4>
         <div className="skillItem">
             HTML
         </div>
