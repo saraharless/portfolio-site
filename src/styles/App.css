@@ -23,12 +23,13 @@ nav a {
   transition: 0.3s ease;
   background: #344F48;
   color: #F3E9E7;
-  font-size: 20px;
+  font-size: 1em;
   text-decoration: none;
   border-top: 4px solid #344F48;
   border-bottom: 4px solid #344F48;
   padding: 20px 0;
-  margin: 0 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .about h1 {
@@ -38,6 +39,7 @@ nav a {
 .about {
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 8%;
 }
 
 .btn {
@@ -77,6 +79,7 @@ nav a {
 
 .home {
   text-align: center;
+  margin-top: 8%;
 }
 
 
@@ -92,8 +95,12 @@ nav a {
 }
 
 .intro h1{
-  font-size: 3em;
+  font-size: 2em;
   line-height: 1em;
+}
+
+.home img {
+  width: 250px;
 }
 
 nav {
@@ -107,6 +114,7 @@ nav {
 .portfolio {
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 8%;
 }
 
 .project {
@@ -138,7 +146,7 @@ nav {
 }
 
 .port img {
-  width: 350px;
+  width: 250px;
 }
 
 .porttext {
@@ -156,13 +164,14 @@ nav {
   padding-right: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
-  margin-bottom: 20px;
+  margin-bottom: 5%;
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 8%;
 }
 
 .resume img {
-  width: 350px;
+  width: 250px;
   justify-content: center;
 }
 
@@ -178,20 +187,18 @@ h4 {
 
 .skills {
   display: flex;
-  /*max-width: 80%;*/
   flex-wrap: wrap;
 }
 
 .skillItem {
   text-align: center;
-  margin-top: 10px;
   background-color: #8C8D81;
   color: #4C4743;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin: 20px;
+  margin: 10px;
   border: 4px solid #D4FF00;
   width: 160px;
   flex-direction: row;
