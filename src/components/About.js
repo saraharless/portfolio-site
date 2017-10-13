@@ -22,20 +22,42 @@ export default class About extends Component {
 
         <div className="skills">
           <h4>Skillset:</h4>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Adobe Photoshop</li>
-            <li>Adobe Illustrator</li>
-            <li>Adobe Lightroom</li>
-            <li>Adobe InDesign</li>
-            <li>Illustration</li>
-            <li>UX & UI</li>
-            <li>Web Design</li>
-            <li>Git</li>
-          </ul>
+        <div className="skillItem">
+            HTML
+        </div>
+        <div className="skillItem">
+            CSS
+        </div>
+        <div className="skillItem">
+            JavaScript
+        </div>
+        <div className="skillItem">
+            React
+        </div>
+        <div className="skillItem">
+            Adobe Photoshop
+        </div>
+        <div className="skillItem">
+            Adobe Illustrator
+        </div>
+        <div className="skillItem">
+            Adobe Lightroom
+        </div>
+        <div className="skillItem">
+            Adobe InDesign
+        </div>
+        <div className="skillItem">
+            Illustration
+        </div>
+        <div className="skillItem">
+            UX & UI
+        </div>
+        <div className="skillItem">
+            Web Design
+        </div>
+        <div className="skillItem">
+            Git
+          </div>
         </div>
 
       </div>
