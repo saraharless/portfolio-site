@@ -9,6 +9,7 @@ import About from './components/About.js'
 import BaseLayout from './components/BaseLayout.js'
 import Portfolio from './components/Portfolio.js'
 import Resume from './components/Resume.js'
+import MarketingDesign from './components/MarketingDesign.js'
 
 ReactDOM.render(
 <BrowserRouter>
@@ -17,7 +18,8 @@ ReactDOM.render(
     <Route exact path='/' component={Home} />
     <Route path='/about' component={About} />
     <Route path='/portfolio' component={Portfolio} />
-    <Route path='/Resume' component={Resume} />
+    <Route path='/resume' component={Resume} />
+    <Route path='/marketingdesign' component={MarketingDesign} />
   </Switch>
 </BaseLayout>
 </BrowserRouter>
